@@ -18,7 +18,8 @@ app = FastAPI()
 # Allow the Vite dev server to call this API.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173",
+                   "inquira-five.vercel.app"],
     allow_methods=["POST"],
     allow_headers=["*"],
 )
