@@ -2,3 +2,5 @@
 .venv/
 .env
 __pycache__/
+research-frontend/node_modules/
+research-frontend/dist/
