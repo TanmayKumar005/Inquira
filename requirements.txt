@@ -1,0 +1,47 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-openai
+langchain-community
+
+# OpenAI
+openai
+langchain-mistralai
+
+# Search Tool
+tavily-python
+
+# Web Scraping
+beautifulsoup4
+requests
+lxml
+
+# Environment Variables
+python-dotenv
+
+# Tokenization (used internally by LangChain/OpenAI)
+tiktoken
+
+# Validation
+pydantic
+
+# Async HTTP Client
+httpx
+
+# HTML Parsing
+html5lib
+
+# Retry Utilities
+tenacity
+
+# CLI / Debugging
+rich
+
+# Optional Data Handling
+pandas
+
+# Optional Progress Bars
+tqdm
+
+fastapi
+uvicorn
