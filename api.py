@@ -19,7 +19,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173",
-                   "inquira-five.vercel.app"],
+                   "https://inquira-five.vercel.app"],
     allow_methods=["POST"],
     allow_headers=["*"],
 )
